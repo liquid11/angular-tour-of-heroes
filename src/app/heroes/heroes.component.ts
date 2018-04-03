@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit,Input} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
@@ -15,6 +15,7 @@ export class HeroesComponent implements OnInit {
   //   name: 'Windstorm'
 
   // };
+
 heroes = HEROES;
 
 selectedHero: Hero;
